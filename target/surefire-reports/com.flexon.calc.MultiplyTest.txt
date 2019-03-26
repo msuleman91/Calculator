@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.flexon.calc.MultiplyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.flexon.calc.MultiplyTest
+testmultiply(com.flexon.calc.MultiplyTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<100> but was:<20>
+	at com.flexon.calc.MultiplyTest.testmultiply(MultiplyTest.java:23)
+

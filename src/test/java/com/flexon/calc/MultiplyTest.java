@@ -20,9 +20,9 @@ public class MultiplyTest {
 
 		assertEquals(resultShould, result);
 
-		assertEquals(100, Calculator.sum(10, 10));
-		assertEquals(0, Calculator.sum(0, 10));
-		assertEquals(0, Calculator.sum(0, 0));
+		assertEquals(100, Calculator.multiply(10, 10));
+		assertEquals(0, Calculator.multiply(0, 10));
+		assertEquals(0, Calculator.multiply(0, 0));
 
 	}
 }

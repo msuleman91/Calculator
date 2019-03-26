@@ -13,17 +13,17 @@ public class CalsubtrTest {
 		
 		@Test
 		public void testsubtract() {
-			double a = 10;
-			double b = 10;
-			double resultShould = 0.0;
+			int a = 10;
+			int b = 10;
+			int resultShould = 0;
 
-			double result = Calculator.subtract(a, b);
+			int result = Calculator.subtract(a, b);
 
 			extracted(resultShould, result);
 
 		
-			extracted(0, Calculator.subtract(10.0,10.0));
-			extracted(-10, Calculator.subtract(10.0,10.0));
+			extracted(0, Calculator.subtract(10,10));
+			extracted(-10, Calculator.subtract(10,10));
 			extracted(0, Calculator.subtract(0,0));
 			
 
